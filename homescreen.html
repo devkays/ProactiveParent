@@ -1,0 +1,42 @@
+<html>
+<head>
+<link rel="stylesheet" href="my.css" />
+</head>
+<body>
+
+<script src="jquery-1.7.2.js"></script>
+
+<table>
+<tr>
+	<td name="grades" class="imagebutton">
+		<img src="2febb.png" />
+		<p> Grades </p>
+	</td>
+	<td name="assignments" class="imagebutton">
+		<img src="calendario.png" />
+		<p> Assignments </p>
+	</td>
+</tr>
+<tr>
+	<td name="email" class="imagebutton">
+		<img src="email.png" />
+		<p> Email the teacher </p>
+	</td>
+	<td name="help" class="imagebutton">
+		<img src="help.png" />
+		<p> Subject Help </p>
+	</td>
+</tr>
+</table>
+<script>
+
+(function() {
+	$('.imagebutton').on('click', function(){
+		var buttonName = $(this).attr('name');
+		var url = buttonName + ".html";
+		$(location).attr('href', url);
+	});
+})();
+</script>
+</body>
+</html>
