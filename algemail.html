@@ -16,48 +16,33 @@
         </script>
     </head>
     <body>
-         <div data-role="page" id="email">
+         <div data-role="page" id="algemail">
             <div data-theme="a" data-role="header">
                <h5 style="font-size: 30px">
-                    Subjects
+                    Email
                 </h5>
             </div>
             <div data-role="content">
-                <ul data-role="listview" data-divider-theme="b" data-inset="true">
-                    <li data-role="list-divider" role="heading">
-                        <h1> Subjects </h1>
-                    </li>
-                    <li data-theme="c">
-                        <a href="#algemail" data-transition="slide">
-                            <h1> Algebra </h1>
-                        </a>
-                    </li>
-                    <li data-theme="c">
-                        <a href="#algemail" data-transition="slide">
-                            <h1> Physics</h1>
-                        </a>
-                    </li>
-                    <li data-theme="c">
-                        <a href="#algemail" data-transition="slide">
-                            <h1> English </h1>
-                        </a>
-                    </li>
-                    <li data-theme="c">
-                        <a href="#algemail" data-transition="slide">
-                            <h1> History </h1>
-                        </a>
-                    </li>
-                    <li data-theme="c">
-                        <a href="#algemail" data-transition="slide">
-                            <h1> Social Studies </h1>
-                        </a>
-                    </li>
-                    <li data-theme="c">
-                        <a href="#algemail" data-transition="slide">
-                            <h1> Spanish </h1>
-                        </a>
-                    </li>
-                </ul>
+                <div data-role="fieldcontain">
+                    <fieldset data-role="controlgroup">
+                        <label for="textarea2">
+                            To:
+                        </label>
+                        <textarea id="textarea2" placeholder="">
+                            Dave Andersion &lt;daveand985@gmail.com&gt;
+                        </textarea>
+                    </fieldset>
+                </div>
+                <div data-role="fieldcontain" style="height: 70%">
+                    <fieldset data-role="controlgroup">
+                        <label for="textarea3">
+                            What's Up?
+                        </label>
+                        <textarea id="textarea3" placeholder="Ask your questions here." style="height: 300px">
+                        </textarea>
+                    </fieldset>
+                </div>
+
             </div>
             <div data-theme="a" data-role="footer" data-position="fixed" >
                 <div data-role="navbar" data-iconpos="top">
