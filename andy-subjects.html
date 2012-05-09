@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+        <title>
+        </title>
+        <link rel="stylesheet" href="jquerymobile.css" />
+        <link rel="stylesheet" href="login.css" />
+        <style>
+            /* App custom styles */
+        </style>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js">
+        </script>
+        <script src="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.js">
+        </script>
+    </head>
+    <body>
+         <div data-role="page" id="select">
+            <div data-theme="a" data-role="header">
+               <h5 style="font-size: 30px">
+                    Select Child
+                </h5>
+            </div>
+            <div data-role="content">
+                <div style="">
+                    <img style="width: 107px; height: 107px" src="http://assets.codiqa.com/ps/13915/8824e0bc61b66d7candy.png" />
+                </div>
+                <ul data-role="listview" data-divider-theme="b" data-inset="true">
+					<p style="color:red"> Touch a subject to view the grades and the assignments due</p>
+					<li data-theme="c">
+                        <a href="#andy-algebra" data-transition="slide">
+                            Algebra
+                        </a>
+                    </li>
+                    <li data-theme="c">
+                        <a href="#andy-subjects" data-transition="slide">
+                            Physics
+                        </a>
+                    </li>
+                    <li data-theme="c">
+                        <a href="#andy-subjects" data-transition="slide">
+                            English
+                        </a>
+                    </li>
+                    <li data-theme="c">
+                        <a href="#andy-subjects" data-transition="slide">
+                            History
+                        </a>
+                    </li>
+                    <li data-theme="c">
+                        <a href="#andy-subjects" data-transition="slide">
+                            Social Studies
+                        </a>
+                    </li>
+                    <li data-theme="c">
+                        <a href="#andy-subjects" data-transition="slide">
+                            Spanish
+                        </a>
+                    </li>
+                    <li data-theme="c">
+                        <a href="#andy-subjects" data-transition="slide">
+                            American History
+                        </a>
+                    </li>
+                </ul>
+            </div>
+			<div data-theme="a" data-role="footer" data-position="fixed" >
+                <div data-role="navbar" data-iconpos="top">
+                    <ul>
+                        <li>
+                            <a data-transition="fade" data-rel="back" data-theme="" data-icon="back" >
+                                <span style="font-size: 30px">Back</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#homescreen" data-theme="" data-icon="home">
+                                <span style="font-size: 30px">Home</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#login" data-theme="" data-icon="delete">
+                                <span style="font-size: 30px">Exit</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+		
+		<!-- after selection of Algebra subject -->
+		<div data-role="page" id="andy-algebra">
+            <div data-theme="a" data-role="header" style="height: 30%;">
+               <h5 style="font-size: 30px">
+                    Andy - Algebra
+                </h5>
+                <a data-role="button" data-inline="true" data-rel="back" data-transition="fade" data-theme="b"  data-icon="arrow-l" data-iconpos="left" style="position: absolute; top: 21%;">
+                    <span style="font-size: 20px">Back</span>
+                </a>
+            </div>
+            <div data-role="content">
+                <div style="">
+                    <img style="width: 107px; height: 107px" src="http://assets.codiqa.com/ps/13915/53fc75f6412d99e8andy.png" />
+                </div>
+                <div data-role="collapsible-set" data-theme="" data-content-theme="">
+                    <div data-role="collapsible" data-collapsed="true">
+                        <h3>
+                            Grade
+                        </h3>
+						<p>
+							<ul data-role="listview">
+								<li>Overall Grade:  <em style="color:red">'C'</em></li>
+							</ul>
+						</p>
+                    </div>
+                </div>
+                <div data-role="collapsible-set" data-theme="" data-content-theme="">
+                    <div data-role="collapsible" data-collapsed="true">
+                        <h3>
+                            Assignments
+                        </h3>
+						<p>
+                <ul data-role="listview">
+                    <li>Assignment #3 due !:
+						<a href="#alghw"> 
+							<em style="color:red">View assignment</em>
+						</a>
+					</li>
+                    <li>Assignment #2 completed !</li>
+                    <li>Assignment #1 completed !</li>
+                </ul>
+            </p>
+                    </div>
+					
+                </div>
+            </div>
+            <div data-theme="a" data-role="footer" data-position="fixed" >
+                <div data-role="navbar" data-iconpos="top">
+                    <ul>
+                        <li>
+                            <a data-transition="fade" data-rel="back" data-theme="" data-icon="back" >
+                                <span style="font-size: 30px">Back</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#homescreen" data-theme="" data-icon="home">
+                                <span style="font-size: 30px">Home</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#login" data-theme="" data-icon="delete">
+                                <span style="font-size: 30px">Exit</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+			<div data-theme="a" data-role="footer" data-position="fixed" >
+                <div data-role="navbar" data-iconpos="top">
+                    <ul>
+                        <li>
+                            <a data-transition="fade" data-rel="back" data-theme="" data-icon="back" >
+                                <span style="font-size: 30px">Back</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#homescreen" data-theme="" data-icon="home">
+                                <span style="font-size: 30px">Home</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#login" data-theme="" data-icon="delete">
+                                <span style="font-size: 30px">Exit</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+       
+        <script>
+            //App custom javascript
+        </script>
+    </body>
+</html>
