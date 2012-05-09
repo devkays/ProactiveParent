@@ -1,5 +1,5 @@
 
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
 <head>
 
@@ -21,10 +21,38 @@
 	<td>
 	</td>
 	<td>
-		<p> Andy Grade 7 </p>
+		<p style="color:white;"> Andy Grade 7 </p>
 	</td>
 </tr>
 </table>
 </div>
+
+<h1 style="color:blue;"> Subject Grades </h1>
+<br/>
+<ul>
+	<li name="algebra" class="listbutton">
+		<h1> Algebra </h1>
+	</li>
+	<li name="english" class="listbutton">
+		<h1> English </h1>
+	</li>
+	<li name="history" class="listbutton">
+		<h1> History </h1>
+	</li>
+	<li name="gym" class="listbutton">
+		<h1> Physical Education </h1>
+	</li>
+</ul>
+<script>
+
+(function() {
+	$('.listbutton').on('click', function(){
+		var buttonName = $(this).attr('name');
+		var url = buttonName + ".html";
+		$(location).attr('href', url);
+	});
+})();
+
+</script>
 </body>
 </html>

@@ -1,11 +1,12 @@
 body {
-	background-color: #716CA1;
+	background-color: #efefef;
 	margin: auto;
+	text-align: center;
+	color: white;
 }
 
 .imagebutton {
 	cursor: pointer;
-	background-color: #716CA1;
 	text-align: center;
 	width: 200px;
 	height: 200px;
@@ -17,7 +18,7 @@ table {
 	height: 400;
 	margin: auto;
 	text-align: center;
-	color: white;
+	color: black;
 	font-style: bold;
 	font-size: 40px;
 	
@@ -27,4 +28,22 @@ table {
 	background-color: black;
 	height: 175px;
 	border-bottom: 2px solid white;
+}
+
+.listbutton {
+	background-color: blue;
+	height: 50px;
+	border-top: 2px solid white;
+	border-bottom: 1px solid black;
+	text-align: left;
+	margin: auto;
+	font-style: bold;
+	font-size: 15px;
+	color: white;
+	width: 700px;
+	cursor: pointer;
+}
+
+ul {
+	list-style-type: none;
 }
