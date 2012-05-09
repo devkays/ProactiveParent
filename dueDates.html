@@ -16,111 +16,70 @@
         </script>
     </head>
     <body>
-        <div data-role="page" id="page1">
-            <div data-theme="a" data-role="header" style="height: 30%;">
-                <h5 style="font-size: 30px">
+        <div data-role="page" id="page3">
+            <div data-theme="a" data-role="header">
+               <h5 style="font-size: 30px">
                     Select Child
                 </h5>
             </div>
             <div data-role="content">
-                <div class="ui-grid-b">
-                    <div class="ui-block-a">
-                        <div data-theme="b" data-role="header">
-                            Assignment
-                        </div>
-                    </div>
-                    <div class="ui-block-b">
-                        <div data-theme="b" data-role="header">
-                            Due Date
-                        </div>
-                    </div>
-                    <div class="ui-block-c">
-                        <div data-theme="b" data-role="header">
-                            Status
-                        </div>
-                    </div>
-                    <div class="ui-block-a">
-                        <a data-role="button" style="font-size: 10px;" data-transition="fade" data-theme="e" href="page1">
-                            Chapter 4, Problems 1-20
+                <ul data-role="listview" data-divider-theme="b" data-inset="true">
+                    <li data-role="list-divider" role="heading">
+                        <table style="width: 100%;">
+                            <tr>
+                                <td style="width: 70%; font-size: 28px; padding: 10px;"><h2>Assignment</h2></td>
+                                <td style="width: 30%; font-size: 28px; padding: 10px;"><h2>Due Date<h2></td>
+                            </tr>
+                        </table>
+                    </li>
+                    <li data-theme="e">
+                        <a href="#page1" data-transition="slide">
+                            <table style="width: 100%;">
+                                <tr>
+                                    <td style="width: 70%; border-right: 2px solid #A4A4A4; font-size: 28px; padding: 10px;"><h2>Chapter 4, Problems 1-20</h2></td>
+                                    <td style="width: 30%; font-size: 28px; padding: 10px;"><h2>May 17th<h2></td>
+                                </tr>
+                            </table>
                         </a>
-                    </div>
-                    <div class="ui-block-b">
-                        <div>
-                            <p style="text-align: center; " data-mce-style="text-align: center;">
-                                <strong>
-                                    May 17th
-                                </strong>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="ui-block-c">
-                        <div>
-                            <p style="text-align: center; " data-mce-style="text-align: center;">
-                                <strong>
-                                    Not Submitted
-                                </strong>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="ui-block-a">
-                        <a data-role="button" style="font-size: 10px;" data-transition="fade" data-theme="e" href="page1">
-                            Worksheet 3
+                    </li>
+                    <li data-theme="e">
+                        <a href="#page1" data-transition="slide">
+                            <table style="width: 100%;">
+                                <tr>
+                                    <td style="width: 70%; border-right: 2px solid #A4A4A4; font-size: 28px; padding: 10px;"><h2>Worksheet 3</h2></td>
+                                    <td style="width: 30%; font-size: 28px; padding: 10px;"><h2>May 21st</h2></td>
+                                </tr>
+                                </table>
                         </a>
-                    </div>
-                    <div class="ui-block-b">
-                        <div>
-                            <p style="text-align: center; " data-mce-style="text-align: center;">
-                                <strong>
-                                    May 21st
-                                </strong>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="ui-block-c">
-                        <div>
-                            <p style="text-align: center; " data-mce-style="text-align: center;">
-                                <strong>
-                                    Not Submitted
-                                </strong>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="ui-block-a">
-                        <a data-role="button" style="font-size: 10px;" data-transition="fade" data-theme="e" href="page1">
-                            Assignment 1
+                    </li>
+                    <li data-theme="e">
+                        <a href="#page1" data-transition="slide">
+                            <table style="width: 100%;">
+                                <tr>
+                                    <td style="width: 70%; border-right: 2px solid #A4A4A4; font-size: 28px; padding: 10px;"><h2>Assignment 1</h2></td>
+                                    <td style="width: 30%; font-size: 28px; padding: 10px;"><h2>May 24th</h2></td>
+                                </tr>
+                            </table>
                         </a>
-                    </div>
-                    <div class="ui-block-b">
-                        <div>
-                            <p style="text-align: center; ">
-                                <strong>
-                                    May 24th
-                                </strong>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="ui-block-c">
-                        <div>
-                            <p style="text-align: center; ">
-                                <strong>
-                                    Submitted
-                                </strong>
-                            </p>
-                        </div>
-                    </div>
-                </div>
+                    </li>
+                </ul>
             </div>
-            <div data-theme="a" data-role="footer" data-position="fixed">
+            <div data-theme="a" data-role="footer" data-position="fixed" >
                 <div data-role="navbar" data-iconpos="top">
                     <ul>
                         <li>
-                            <a href="#page1" data-theme="" data-icon="back">
-                                Back
+                            <a data-transition="fade" data-rel="back" data-theme="" data-icon="back" >
+                                <span style="font-size: 30px">Back</span>
                             </a>
                         </li>
                         <li>
-                            <a href="#page1" data-theme="" data-icon="delete">
-                                Exit
+                            <a href="#login" data-theme="" data-icon="home">
+                                <span style="font-size: 30px">Home</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#login" data-theme="" data-icon="delete">
+                                <span style="font-size: 30px">Exit</span>
                             </a>
                         </li>
                     </ul>
