@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
         <title>
         </title>
         <link rel="stylesheet" href="jquerymobile.css" />
@@ -16,29 +16,58 @@
         </script>
     </head>
     <body>
-        <div data-role="page" id="page1">
+        <div data-role="page" id="login">
             <div data-role="content">
-                <div style="display: block; margin-left: auto; margin-right: auto; background-color: #efefef; margin-top: 40px;">
-                    <img src="images/logo.png" alt="image" style="display: block; margin-left: auto; margin-right: auto;" />
-                </div>
-                <div data-role="fieldcontain" style="display:block; margin-left:-38px; margin-right:auto;">
+                
+                <img src="images/logo.png" alt="image" style="position: absolute; top: 5%; left: 14%; #efefef;"/>
+                
+                <div data-role="fieldcontain" style="position: absolute; top: 55%; left: 4%; width: 90%">
                     <fieldset data-role="controlgroup">
                         <label for="textinput1">
                         </label>
                         <input id="textinput1" placeholder="Username" value="" type="text" />
                     </fieldset>
                 </div>
-                <div data-role="fieldcontain" style="display:block; margin-left:-38px; margin-right:auto;">
+                <div data-role="fieldcontain" style="position: absolute; top: 65%; left: 4%; width: 90%">
                     <fieldset data-role="controlgroup">
                         <label for="textinput2">
                         </label>
                         <input id="textinput2" placeholder="Password" value="" type="password" />
                     </fieldset>
                 </div>
-                <a href="homescreen.html" data-transition="slide" data-theme="b" data-icon="arrow-r" data-iconpos="right" data-role="button" style="display:block; margin-left:auto; margin-right:auto; margin-top: 40px; width: 300px">Submit</a>
+                <a href="#select" data-transition="slide" data-theme="b" data-icon="arrow-r" data-iconpos="right" data-role="button" style="position: absolute; top: 77%; left: 21%; width: 60%; height: 9%"><span style="font-size: 36px">Login</span></a>
                 <!-- <input stlye="margin-top: 40px;" type="submit" data-theme="b" data-icon="arrow-r" data-iconpos="right" value="Submit" /> -->
             </div>
         </div>
+        <div data-role="page" id="select">
+            <div data-theme="a" data-role="header" style="height: 30%;">
+               <h5 style="font-size: 30px">
+                    Select Child
+                </h5>
+                <a data-role="button" data-inline="true" data-rel="back" data-transition="fade" data-theme="b"  data-icon="arrow-l" data-iconpos="left" style="position: absolute; top: 21%;">
+                    <span style="font-size: 20px">Back</span>
+                </a>
+            </div>
+            <div data-role="content">
+                <img data-inline="true" src="images/andy.png" alt="image" style="position: absolute; top: 25%; left: 6%;" />
+               
+                <a data-role="button" data-transition="fade" href="#homescreen" data-inline="true" style="position: absolute; top: 27%; left: 33%;">
+                    <span style="font-size: 34px">Andy - Grade 7</span>
+                </a>
+
+                <img data-inline="true" src="images/joey.png" alt="image" style="position: absolute; top: 61%; left: 6%;" />
+
+                <a data-role="button" data-transition="fade" href="#homescreen" data-inline="true" style="position: absolute; top: 63%; left: 33%;">
+                    <span style="font-size: 34px">Joey - Grade 4</span>
+                </a>
+            </div>
+            <div data-theme="a" data-id="myfooter" data-role="footer" data-position="fixed" style="height: 40px;">
+                <a data-role="button" data-inline="true" data-transition="fade" data-theme="b" href="#login" data-icon="arrow-d" data-iconpos="left" style="position: absolute; bottom: 12%; left: 35%; width: 30%">
+                    <span style="font-size: 16px">Exit</span>
+                </a>
+            </div>
+        </div>
+       
         <script>
             //App custom javascript
         </script>
