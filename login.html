@@ -21,22 +21,21 @@
                 
                 <img src="images/logo.png" alt="image" style="position: absolute; top: 5%; left: 14%; #efefef;"/>
                 
-                <div data-role="fieldcontain" style="position: absolute; top: 55%; left: 4%; width: 90%">
+                <div data-role="fieldcontain" style="position: absolute; top: 60%; left: 4%; width: 90%">
                     <fieldset data-role="controlgroup">
                         <label for="textinput1">
                         </label>
                         <input id="textinput1" placeholder="Username" value="" type="text" />
                     </fieldset>
                 </div>
-                <div data-role="fieldcontain" style="position: absolute; top: 65%; left: 4%; width: 90%">
+                <div data-role="fieldcontain" style="position: absolute; top: 70%; left: 4%; width: 90%">
                     <fieldset data-role="controlgroup">
                         <label for="textinput2">
                         </label>
                         <input id="textinput2" placeholder="Password" value="" type="password" />
                     </fieldset>
                 </div>
-                <a href="#select" data-transition="slide" data-theme="b" data-icon="arrow-r" data-iconpos="right" data-role="button" style="position: absolute; top: 77%; left: 21%; width: 60%; height: 9%"><span style="font-size: 36px">Login</span></a>
-                <!-- <input stlye="margin-top: 40px;" type="submit" data-theme="b" data-icon="arrow-r" data-iconpos="right" value="Submit" /> -->
+                <a href="#select" data-transition="slide" data-theme="b" data-icon="arrow-r" data-iconpos="right" data-role="button" style="position: absolute; top: 83%; left: 21%; width: 60%; height: 9%"><span style="font-size: 36px">Login</span></a>
             </div>
         </div>
         <div data-role="page" id="select">
@@ -44,15 +43,17 @@
                <h5 style="font-size: 30px">
                     Select Child
                 </h5>
-                <a data-role="button" data-inline="true" data-rel="back" data-transition="fade" data-theme="b"  data-icon="arrow-l" data-iconpos="left" style="position: absolute; top: 21%;">
-                    <span style="font-size: 20px">Back</span>
-                </a>
             </div>
             <div data-role="content">
-                <img data-inline="true" src="images/andy.png" alt="image" style="position: absolute; top: 25%; left: 6%;" />
+                <!-- <img data-inline="true" src="images/andy.png" alt="image" style="position: absolute; top: 25%; left: 6%;" />
                
                 <a data-role="button" data-transition="fade" href="#homescreen" data-inline="true" style="position: absolute; top: 27%; left: 33%;">
                     <span style="font-size: 34px">Andy - Grade 7</span>
+                </a> -->
+
+                <a data-role="button" data-inline="true" data-transition="fade" href="#homescreen" style="position: absolute; left: 5%; top: 20%; width: 40%; height: 25%">
+                                 <img src="images/andy.png" style="height: 70%; width: 80%"/>
+                                 <h3 style="color: black; margin: auto"> Andy - Grade 7 </h3>
                 </a>
 
                 <img data-inline="true" src="images/joey.png" alt="image" style="position: absolute; top: 61%; left: 6%;" />
@@ -61,10 +62,106 @@
                     <span style="font-size: 34px">Joey - Grade 4</span>
                 </a>
             </div>
-            <div data-theme="a" data-id="myfooter" data-role="footer" data-position="fixed" style="height: 40px;">
-                <a data-role="button" data-inline="true" data-transition="fade" data-theme="b" href="#login" data-icon="arrow-d" data-iconpos="left" style="position: absolute; bottom: 12%; left: 35%; width: 30%">
-                    <span style="font-size: 16px">Exit</span>
+            <div data-theme="a" data-role="footer" data-position="fixed" >
+                <div data-role="navbar" data-iconpos="top">
+                    <ul>
+                        <li>
+                            <a data-transition="fade" data-rel="back" data-theme="" data-icon="back" >
+                                <span style="font-size: 30px">Back</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#login" data-theme="" data-icon="delete">
+                                <span style="font-size: 30px">Exit</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div data-role="page" id="homescreen">
+            <div data-theme="a" data-role="header" style="height: 30%;">
+               <h5 style="font-size: 30px">
+                    Andy - Home
+                </h5>
+            </div>
+            <div data-role="content">
+                <table>
+                    <tr>
+                        <td>
+                             <a data-role="button" data-inline="true" data-transition="fade" href="#andy-subject" style="position: absolute; left: 5%; top: 20%; width: 40%; height: 25%">
+                                 <img src="images/2febb.png" style="height: 70%; width: 80%"/>
+                                 <h3 style="color: black; margin: auto"> Grades </h3>
+                             </a>
+                        </td>
+                        <td>
+                            <a data-role="button" data-inline="true" data-transition="fade" href="#andy-assignments" style="position: absolute; right: 5%; top: 20%; width: 40%; height: 25%">
+                                 <img src="images/calendario.png" style="height: 70%; width: 80%"/>
+                                 <h3 style="color: black; margin: auto"> Assignments </h3>
+                             </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a data-role="button" data-inline="true" data-transition="fade" href="#login" style="position: absolute; left: 5%; bottom: 15%; width: 40%; height: 25%">
+                                 <img src="images/email.png" style="height: 70%; width: 80%"/>
+                                 <h3 style="color: black; margin: auto"> Email Teacher </h3>
+                             </a>
+                        </td>
+                        <td>
+                            <a data-role="button" data-inline="true" data-transition="fade" href="#login" style="position: absolute; right: 5%; bottom: 15%; width: 40%; height: 25%">
+                                 <img src="images/help.png" style="height: 70%; width: 80%"/>
+                                 <h3 style="color: black; margin: auto"> Subject Help </h3>
+                             </a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div data-theme="a" data-role="footer" data-position="fixed" >
+                <div data-role="navbar" data-iconpos="top">
+                    <ul>
+                        <li>
+                            <a data-transition="fade" data-rel="back" data-theme="" data-icon="back" >
+                                <span style="font-size: 30px">Back</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#login" data-theme="" data-icon="delete">
+                                <span style="font-size: 30px">Exit</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div data-role="page" id="worksheet">
+            <div data-theme="a" data-role="header" style="height: 30%;">
+               <h5 style="font-size: 30px">
+                    Worksheet 3
+                </h5>
+            </div>
+            <div data-role="content">
+                <img data-inline="true" src="images/joey.png" alt="image" style="position: absolute; top: 17%; left: 5%;" />
+
+                <a data-role="button" data-transition="fade" href="#gethelp" data-inline="true" data-theme="e" style="position: absolute; bottom: 8%; left: 4%;">
+                    <span style="font-size: 28px">Get help with this homework</span>
                 </a>
+            </div>
+            <div data-theme="a" data-role="footer" data-position="fixed" >
+                <div data-role="navbar" data-iconpos="top">
+                    <ul>
+                        <li>
+                            <a data-transition="fade" data-rel="back" data-theme="" data-icon="back" >
+                                <span style="font-size: 30px">Back</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#login" data-theme="" data-icon="delete">
+                                <span style="font-size: 30px">Exit</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
        
