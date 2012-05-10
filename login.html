@@ -60,7 +60,7 @@
                                  <h3 style="color: black; margin-top: 7px"> Joey </h3>
                 </a>
             </div>
-            <div data-theme="a" data-role="footer" data-position="fixed" >
+            <div data-theme="a" data-role="footer" data-position="fixed" data-id="myfooter">
                 <div data-role="navbar" data-iconpos="top">
                     <ul>
                         <li>
@@ -103,7 +103,7 @@
                     </tr>
                     <tr>
                         <td>
-                            <a data-role="button" data-inline="true" data-transition="fade" href="#login" style="position: absolute; left: 5%; bottom: 15%; width: 40%; height: 25%">
+                            <a data-role="button" data-inline="true" data-transition="fade" href="#algemail" style="position: absolute; left: 5%; bottom: 15%; width: 40%; height: 25%">
                                  <img src="images/email.png" style="height: 70%; width: 80%"/>
                                  <h3 style="color: black; margin: auto"> Email Teacher </h3>
                              </a>
@@ -117,7 +117,7 @@
                     </tr>
                 </table>
             </div>
-            <div data-theme="a" data-role="footer" data-position="fixed" >
+            <div data-theme="a" data-role="footer" data-position="fixed" data-id="myfooter">
                 <div data-role="navbar" data-iconpos="top">
                     <ul>
                         <li>
@@ -138,25 +138,30 @@
         <!-- WORKSHEET -->
         <div data-role="page" id="worksheet">
             <div data-theme="a" data-role="header">
-               <h5 style="font-size: 30px">
-                    Worksheet 3
+               <h5 style="font-size: 28px">
+                    Assignment 3
                 </h5>
             </div>
 
             <div data-role="content">
-                <img data-inline="true" src="images/joey.png" alt="image" style="position: absolute; top: 17%; left: 5%;" />
+                <img data-inline="true" src="images/assignment3.jpg" alt="image" style="position: absolute; top: 18%; left: 10%; height:50%; width: 80%" />
 
-                <a data-role="button" data-transition="fade" href="#gethelp" data-inline="true" data-theme="e" style="position: absolute; bottom: 8%; left: 4%;">
+                <a data-role="button" data-transition="fade" href="#gethelp" data-inline="true" data-theme="e" style="position: absolute; bottom: 14%; left: 4%;">
                     <span style="font-size: 28px">Get help with this homework</span>
                 </a>
             </div>
 
-            <div data-theme="a" data-role="footer" data-position="fixed" >
+            <div data-theme="a" data-role="footer" data-position="fixed" data-id="myfooter">
                 <div data-role="navbar" data-iconpos="top">
                     <ul>
                         <li>
                             <a data-transition="fade" data-rel="back" data-theme="" data-icon="back" >
                                 <span style="font-size: 30px">Back</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#homescreen" data-theme="" data-icon="home">
+                                <span style="font-size: 30px">Home</span>
                             </a>
                         </li>
                         <li>
@@ -168,101 +173,90 @@
                 </div>
             </div>
         </div>
-       
-        <!-- DUE DATES -->
-        <div data-role="page" id="duedates">
+
+        <!-- HOMEWORK HELP -->
+        <div data-role="page" id="worksheethelp">
             <div data-theme="a" data-role="header">
-                <h5 style="font-size: 30px">
-                    Select Child
+               <h5 style="font-size: 30px">
+                    Worksheet Help
                 </h5>
             </div>
             <div data-role="content">
-                <div class="ui-grid-b">
-                    <div class="ui-block-a">
-                        <div data-theme="b" data-role="header">
-                            Assignment
-                        </div>
-                    </div>
-                    <div class="ui-block-b">
-                        <div data-theme="b" data-role="header">
-                            Due Date
-                        </div>
-                    </div>
-                    <div class="ui-block-c">
-                        <div data-theme="b" data-role="header">
-                            Status
-                        </div>
-                    </div>
-                    <div class="ui-block-a">
-                        <a data-role="button" style="font-size: 10px;" data-transition="fade" data-theme="e" href="page1">
-                            Chapter 4, Problems 1-20
-                        </a>
-                    </div>
-                    <div class="ui-block-b">
-                        <div>
-                            <p style="text-align: center; " data-mce-style="text-align: center;">
-                                <strong>
-                                    May 17th
-                                </strong>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="ui-block-c">
-                        <div>
-                            <p style="text-align: center; " data-mce-style="text-align: center;">
-                                <strong>
-                                    Not Submitted
-                                </strong>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="ui-block-a">
-                        <a data-role="button" style="font-size: 10px;" data-transition="fade" data-theme="e" href="page1">
-                            Worksheet 3
-                        </a>
-                    </div>
-                    <div class="ui-block-b">
-                        <div>
-                            <p style="text-align: center; " data-mce-style="text-align: center;">
-                                <strong>
-                                    May 21st
-                                </strong>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="ui-block-c">
-                        <div>
-                            <p style="text-align: center; " data-mce-style="text-align: center;">
-                                <strong>
-                                    Not Submitted
-                                </strong>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="ui-block-a">
-                        <a data-role="button" style="font-size: 10px;" data-transition="fade" data-theme="e" href="page1">
-                            Assignment 1
-                        </a>
-                    </div>
-                    <div class="ui-block-b">
-                        <div>
-                            <p style="text-align: center; ">
-                                <strong>
-                                    May 24th
-                                </strong>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="ui-block-c">
-                        <div>
-                            <p style="text-align: center; ">
-                                <strong>
-                                    Submitted
-                                </strong>
-                            </p>
-                        </div>
-                    </div>
+                
+
+            </div>
+            <div data-theme="a" data-role="footer" data-position="fixed" data-id="myfooter">
+                <div data-role="navbar" data-iconpos="top">
+                    <ul>
+                        <li>
+                            <a data-transition="fade" data-rel="back" data-theme="" data-icon="back" >
+                                <span style="font-size: 30px">Back</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#homescreen" data-theme="" data-icon="home">
+                                <span style="font-size: 30px">Home</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#login" data-theme="" data-icon="delete">
+                                <span style="font-size: 30px">Exit</span>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
+            </div>
+        </div>
+
+
+        <!-- DUE DATES -->
+        <div data-role="page" id="duedates">
+            <div data-theme="a" data-role="header">
+               <h5 style="font-size: 30px">
+                    Due Dates
+                </h5>
+            </div>
+            <div data-role="content">
+                <ul data-role="listview" data-divider-theme="b" data-inset="true">
+                    <li data-role="list-divider" role="heading">
+                        <table style="width: 100%;">
+                            <tr>
+                                <td style="width: 70%; font-size: 28px; padding: 10px; color: #ffffff;">Assignment</td>
+                                <td style="width: 30%; font-size: 28px; padding: 10px; color: #ffffff;">Due Date</td>
+                            </tr>
+                        </table>
+                    </li>
+                    <li data-theme="c">
+                        <a href="#page1" data-transition="slide">
+                            <table style="width: 100%;">
+                                <tr>
+                                    <td style="width: 70%; border-right: 2px solid #A4A4A4; font-size: 20px; padding: 10px;">Chapter 4, Problems 1-20</td>
+                                    <td style="width: 30%; font-size: 20px; padding: 10px;">May 17th</td>
+                                </tr>
+                            </table>
+                        </a>
+                    </li>
+                    <li data-theme="c">
+                        <a href="#page1" data-transition="slide">
+                            <table style="width: 100%;">
+                                <tr>
+                                    <td style="width: 70%; border-right: 2px solid #A4A4A4; font-size: 20px; padding: 10px;">Worksheet 3</td>
+                                    <td style="width: 30%; font-size: 20px; padding: 10px;">May 21st</td>
+                                </tr>
+                            </table>
+                        </a>
+                    </li>
+                    <li data-theme="c">
+                        <a href="#page1" data-transition="slide">
+                            <table style="width: 100%;">
+                                <tr>
+                                    <td style="width: 70%; border-right: 2px solid #A4A4A4; font-size: 20px; padding: 10px;">Assignment 1</td>
+                                    <td style="width: 30%; font-size: 20px; padding: 10px;">May 24th</td>
+                                </tr>
+                            </table>
+                        </a>
+                    </li>
+                </ul>
             </div>
             <div data-theme="a" data-role="footer" data-position="fixed" >
                 <div data-role="navbar" data-iconpos="top">
@@ -270,6 +264,11 @@
                         <li>
                             <a data-transition="fade" data-rel="back" data-theme="" data-icon="back" >
                                 <span style="font-size: 30px">Back</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#login" data-theme="" data-icon="home">
+                                <span style="font-size: 30px">Home</span>
                             </a>
                         </li>
                         <li>
@@ -283,122 +282,276 @@
         </div>
 
         <!-- ALGEBRA HOMEWORK -->
-        <div data-role="page" id="alghw">
+        <div data-role="page" id="andy-subject">
+            <div data-theme="a" data-role="header">
+               <h5 style="font-size: 30px">
+                    Andy - Subjects
+                </h5>
+            </div>
+            <div data-role="content">
+                <div style="">
+                    <img style="width: 107px; height: 107px" src="http://assets.codiqa.com/ps/13915/8824e0bc61b66d7candy.png" />
+                </div>
+                <ul data-role="listview" data-divider-theme="b" data-inset="true">
+                    <p style="color:red"> Touch a subject to view the grades and the assignments due</p>
+                    <li data-theme="c">
+                        <a href="#andy-algebra" data-transition="slide">
+                            Algebra
+                        </a>
+                    </li>
+                    <li data-theme="c">
+                        <a href="#andy-physics" data-transition="slide">
+                            Physics
+                        </a>
+                    </li>
+                    <li data-theme="c">
+                        <a href="#andy-subjects" data-transition="slide">
+                            English
+                        </a>
+                    </li>
+                    <li data-theme="c">
+                        <a href="#andy-subjects" data-transition="slide">
+                            History
+                        </a>
+                    </li>
+                    <li data-theme="c">
+                        <a href="#andy-subjects" data-transition="slide">
+                            Social Studies
+                        </a>
+                    </li>
+                    <li data-theme="c">
+                        <a href="#andy-subjects" data-transition="slide">
+                            Spanish
+                        </a>
+                    </li>
+                    <li data-theme="c">
+                        <a href="#andy-subjects" data-transition="slide">
+                            American History
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div data-theme="a" data-role="footer" data-position="fixed" data-id="myfooter">
+                <div data-role="navbar" data-iconpos="top">
+                    <ul>
+                        <li>
+                            <a data-transition="fade" data-rel="back" data-theme="" data-icon="back" >
+                                <span style="font-size: 30px">Back</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#homescreen" data-theme="" data-icon="home">
+                                <span style="font-size: 30px">Home</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#login" data-theme="" data-icon="delete">
+                                <span style="font-size: 30px">Exit</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <!-- after selection of Algebra subject -->
+        <div data-role="page" id="andy-algebra">
             <div data-theme="a" data-role="header" style="height: 30%;">
                <h5 style="font-size: 30px">
                     Algebra
                 </h5>
             </div>
             <div data-role="content">
-                <div class="ui-grid-a">
-                    <div class="ui-block-a">
-                    </div>
-                    <div class="ui-block-b">
-                    </div>
-                    <div class="ui-block-a">
-                    </div>
-                    <div class="ui-block-b">
+                <div style="">
+                    <img style="width: 107px; height: 107px" src="http://assets.codiqa.com/ps/13915/53fc75f6412d99e8andy.png" />
+                </div>
+                <div data-role="collapsible-set" data-theme="" data-content-theme="">
+                    <div data-role="collapsible" data-collapsed="true">
+                        <h3>
+                            Grade
+                        </h3>
+                        <p>
+                            <ul data-role="listview">
+                                <li>Overall Grade:  <em style="color:red">'C'</em></li>
+                            </ul>
+                        </p>
                     </div>
                 </div>
-                <div class="ui-grid-a">
-                    <div class="ui-block-a">
-                    </div>
-                    <div class="ui-block-b">
-                    </div>
-                    <div class="ui-block-a">
-                    </div>
-                    <div class="ui-block-b">
-                    </div>
-                </div>
-                <ul data-role="listview" data-divider-theme="b" data-inset="false">
-                    <li data-role="list-divider" role="heading">
-                        <table style="width:100%">
-                            <tr>
-                                <td style="text-align: left;width: 70%; border-style: solid; border-right: 2px solid white">
-                                    <h2 style="font-size: 24px"> Assignments </h2>
-                                </td>
-                                <td style="width: 30%;text-align: center">
-                                    <h2 style="font-size: 24px"> Score </h2>
-                                </td>
-                            </tr>
-                        </table>
+                <div data-role="collapsible-set" data-theme="" data-content-theme="">
+                    <div data-role="collapsible" data-collapsed="true">
+                        <h3>
+                            Assignments
+                        </h3>
+                        <p>
+                <ul data-role="listview">
+                    <li>Assignment #3 due !:
+                        <a href="#worksheet"> 
+                            <em style="color:red">View assignment</em>
+                        </a>
                     </li>
-                    <li data-theme="">
-                        <table style="width:100%">
-                            <tr>
-                                <td style="text-align: left;width: 70%; border-style: solid; border-right: 2px solid black">
-                                    <h3 style="font-size: 18px"> Homework 4 </h3>
-                                </td>
-                                <td style="width: 30%;text-align: center">
-                                    <h3 style="color:red; font-size: 18px"> 0/10 </h3>
-                                </td>
-                            </tr>
-                        </table>
-                    </li>
-                    <li data-theme="">
-                        <table style="width:100%">
-                            <tr>
-                                <td style="text-align: left;width: 70%; border-style: solid; border-right: 2px solid black">
-                                    <h3 style="font-size: 18px"> Homework 3 </h3>
-                                </td>
-                                <td style="width: 30%;text-align: center">
-                                    <h3 style="font-size: 18px"> 7/10 </h3>
-                                </td>
-                            </tr>
-                        </table>
-                    </li>
-                    <li data-theme="">
-                        <table style="width:100%">
-                            <tr>
-                                <td style="text-align: left;width: 70%; border-style: solid; border-right: 2px solid black">
-                                    <h3 style="font-size: 18px"> Homework 2 </h3>
-                                </td>
-                                <td style="width: 30%;text-align: center">
-                                    <h3 style="font-size: 18px"> 10/10 </h3>
-                                </td>
-                            </tr>
-                        </table>
-                    </li>
-                    <li data-theme="">
-                        <table style="width:100%">
-                            <tr>
-                                <td style="text-align: left;width: 70%; border-style: solid; border-right: 2px solid black">
-                                    <h3 style="font-size: 18px"> Homework 1 </h3>
-                                </td>
-                                <td style="width: 30%;text-align: center">
-                                    <h3 style="font-size: 18px"> 9/10 </h3>
-                                </td>
-                            </tr>
-                        </table>
-                    </li>
-                    <li data-theme="">
-                       <table style="width:100%">
-                            <tr>
-                                <td style="text-align: left;width: 70%; border-style: solid; border-right: 2px solid black">
-                                    <h3 style="font-size: 18px"> Quiz 1 </h3>
-                                </td>
-                                <td style="width: 30%;text-align: center">
-                                    <h3 style="font-size: 18px"> 14/20 </h3>
-                                </td>
-                            </tr>
-                        </table>
-                    </li>
-                    <li data-theme="">
-                       <table style="width:100%">
-                            <tr>
-                                <td style="text-align: left;width: 70%; border-style: solid; border-right: 2px solid black">
-                                    <h3 style="font-size: 18px"> Test 1 </h3>
-                                </td>
-                                <td style="width: 30%;text-align: center">
-                                    <h3 style="font-size: 18px"> 68/100 </h3>
-                                </td>
-                            </tr>
-                        </table>
-                    </li>
+                    <li>Assignment #2 completed !</li>
+                    <li>Assignment #1 completed !</li>
                 </ul>
+            </p>
+                    </div>
+                    
+                </div>
+            </div>
+            <div data-theme="a" data-role="footer" data-position="fixed" data-id="myfooter">
+                <div data-role="navbar" data-iconpos="top">
+                    <ul>
+                        <li>
+                            <a data-transition="fade" data-rel="back" data-theme="" data-icon="back" >
+                                <span style="font-size: 30px">Back</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#homescreen" data-theme="" data-icon="home">
+                                <span style="font-size: 30px">Home</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#login" data-theme="" data-icon="delete">
+                                <span style="font-size: 30px">Exit</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div data-theme="a" data-role="footer" data-position="fixed" data-id="myfooter">
+                <div data-role="navbar" data-iconpos="top">
+                    <ul>
+                        <li>
+                            <a data-transition="fade" data-rel="back" data-theme="" data-icon="back" >
+                                <span style="font-size: 30px">Back</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#homescreen" data-theme="" data-icon="home">
+                                <span style="font-size: 30px">Home</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#login" data-theme="" data-icon="delete">
+                                <span style="font-size: 30px">Exit</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+       
+       <!-- After selection of Physics -->
+       <div data-role="page" id="andy-physics">
+            <div data-theme="a" data-role="header" style="height: 30%;">
+               <h5 style="font-size: 30px">
+                    Andy - Physics
+                </h5>
+            </div>
+            <div data-role="content">
+                <div style="">
+                    <img style="width: 107px; height: 107px" src="http://assets.codiqa.com/ps/13915/53fc75f6412d99e8andy.png" />
+                </div>
+                <div data-role="collapsible-set" data-theme="" data-content-theme="">
+                    <div data-role="collapsible" data-collapsed="true">
+                        <h3>
+                            Grade
+                        </h3>
+                        <p>
+                            <ul data-role="listview">
+                                <li>Overall Grade:  <em style="color:red">'A'</em></li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+                <div data-role="collapsible-set" data-theme="" data-content-theme="">
+                    <div data-role="collapsible" data-collapsed="true">
+                        <h3>
+                            Assignments
+                        </h3>
+                        <p>
+                <ul data-role="listview">
+                    <li>Assignment #3 completed !</li>
+                    <li>Assignment #2 completed !</li>
+                    <li>Assignment #1 completed !</li>
+                </ul>
+            </p>
+                    </div>
+                    
+                </div>
+            </div>
+            <div data-theme="a" data-role="footer" data-position="fixed" data-id="myfooter">
+                <div data-role="navbar" data-iconpos="top">
+                    <ul>
+                        <li>
+                            <a data-transition="fade" data-rel="back" data-theme="" data-icon="back" >
+                                <span style="font-size: 30px">Back</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#homescreen" data-theme="" data-icon="home">
+                                <span style="font-size: 30px">Home</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#login" data-theme="" data-icon="delete">
+                                <span style="font-size: 30px">Exit</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div data-theme="a" data-role="footer" data-position="fixed" data-id="myfooter">
+                <div data-role="navbar" data-iconpos="top">
+                    <ul>
+                        <li>
+                            <a data-transition="fade" data-rel="back" data-theme="" data-icon="back" >
+                                <span style="font-size: 30px">Back</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#homescreen" data-theme="" data-icon="home">
+                                <span style="font-size: 30px">Home</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#login" data-theme="" data-icon="delete">
+                                <span style="font-size: 30px">Exit</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- EMAIL -->
+        <div data-role="page" id="algemail">
+            <div data-theme="a" data-role="header">
+               <h5 style="font-size: 30px">
+                    Email
+                </h5>
+            </div>
+            <div data-role="content">
+                <div data-role="fieldcontain">
+                    <fieldset data-role="controlgroup">
+                        <label for="textarea2">
+                            To:
+                        </label>
+                        <textarea id="textarea2" placeholder="">Dave Anderson &lt;daveand985@gmail.com&gt;</textarea>
+                    </fieldset>
+                </div>
+                <div data-role="fieldcontain" style="height: 70%">
+                    <fieldset data-role="controlgroup">
+                        <label for="textarea3">
+                            What's Up?
+                        </label>
+                        <textarea id="textarea3" placeholder="Ask your questions here." style="height: 300px">
+                        </textarea>
+                    </fieldset>
+                </div>
 
             </div>
-            <div data-theme="a" data-role="footer" data-position="fixed" >
+            <div data-theme="a" data-role="footer" data-position="fixed" data-id="myfooter">
                 <div data-role="navbar" data-iconpos="top">
                     <ul>
                         <li>
