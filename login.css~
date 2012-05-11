@@ -7,7 +7,6 @@
 
 .ui-page {
 	background: #efefef;
-	-webkit-backface-visibility: hidden;
 }
 
 
