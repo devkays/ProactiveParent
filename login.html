@@ -236,14 +236,19 @@
                             </tr>
                         </table>
                     </li>
+                   
                     <li data-theme="c"  data-icon="false">
+                         <a href="#worksheet" data-transition="slide">
                         <table style="width: 100%;">
-                            <tr>
-                                <td style="width: 70%; border-right: 2px solid #A4A4A4; font-size: 20px; padding: 10px;">Worksheet 3</td>
-                                <td style="width: 30%; font-size: 20px; padding: 10px;">May 21st</td>
-                            </tr>
+                                <tr>
+                                    <td style="width: 70%; border-right: 2px solid #A4A4A4; font-size: 20px; padding: 10px;">Worksheet 3</td>
+                                    <td style="width: 30%; font-size: 20px; padding: 10px;">May 21st</td>                                       
+                                </tr>
+                                
                         </table>
+                    </a>
                     </li>
+                    
                     <li data-theme="c"  data-icon="false">
                         <table style="width: 100%;">
                             <tr>
@@ -356,6 +361,7 @@
                 <div style="">
                     <img style="width: 107px; height: 107px" src="http://assets.codiqa.com/ps/13915/53fc75f6412d99e8andy.png" />
                 </div>
+                
                 <div data-role="collapsible-set" data-theme="" data-content-theme="">
                     <div data-role="collapsible" data-collapsed="true">
                         <h3>
@@ -363,12 +369,12 @@
                         </h3>
                         <p>
                             <ul data-role="listview">
-                                <li>Overall Grade:  <em style="color:red">'C'</em></li>
+                                <li>Overall Grade:  <em style="color:red">'A'</em></li>
                             </ul>
                         </p>
                     </div>
                 </div>
-                <div data-role="collapsible-set" data-theme="" data-content-theme="">
+                <div data-role="collapsible-set" data-theme="" data-content-theme=""  style="position: absolute; bottom: 55%; width: 94%; left: 2%">
                     <div data-role="collapsible" data-collapsed="true">
                         <h3>
                             Assignments
@@ -443,18 +449,10 @@
                 <div style="">
                     <img style="width: 107px; height: 107px" src="http://assets.codiqa.com/ps/13915/53fc75f6412d99e8andy.png" />
                 </div>
-                <div data-role="collapsible-set" data-theme="" data-content-theme="">
-                    <div data-role="collapsible" data-collapsed="true">
-                        <h3>
-                            Grade
-                        </h3>
-                        <p>
-                            <ul data-role="listview">
-                                <li>Overall Grade:  <em style="color:red">'A'</em></li>
-                            </ul>
-                        </p>
-                    </div>
-                </div>
+
+                <a data-role="button" data-transition="slide" data-theme="c" href="#alghw">
+                </a>
+                
                 <div data-role="collapsible-set" data-theme="" data-content-theme="">
                     <div data-role="collapsible" data-collapsed="true">
                         <h3>
@@ -540,6 +538,14 @@
                         </textarea>
                     </fieldset>
                 </div>
+
+                <a data-role="button" data-inline="true" data-transition="slide" data-theme="b" href="#homescreen" style="position: absolute; left: 10%; bottom: 15%; width: 38%; height: 7%;">
+                    <span> Send </span>
+                </a>
+
+                <a data-role="button" data-inline="true" data-transition="slide" data-theme="b" href="#homescreen" style="position: absolute; right: 10%; bottom: 15%; width: 38%; height: 7%">
+                    <span> Cancel </span>
+                </a>
 
             </div>
             <div data-theme="a" data-role="footer" data-position="fixed" data-id="myfooter">
