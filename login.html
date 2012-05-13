@@ -97,7 +97,7 @@
                              </a>
                         </td>
                         <td>
-                            <a data-role="button" data-inline="true" data-transition="slide" href="#duedates" style="position: absolute; right: 5%; top: 20%; width: 40%; height: 25%">
+                            <a data-role="button" data-inline="true" data-transition="slide" href="#assignmentsub" style="position: absolute; right: 5%; top: 20%; width: 40%; height: 25%">
                                  <img src="images/calendario.png" style="height: 70%; width: 80%"/>
                                  <h3 style="color: black; margin: auto"> Assignments </h3>
                              </a>
@@ -105,7 +105,7 @@
                     </tr>
                     <tr>
                         <td>
-                            <a data-role="button" data-inline="true" data-transition="slide" href="#algemail" style="position: absolute; left: 5%; bottom: 15%; width: 40%; height: 25%">
+                            <a data-role="button" data-inline="true" data-transition="slide" href="#email" style="position: absolute; left: 5%; bottom: 15%; width: 40%; height: 25%">
                                  <img src="images/email.png" style="height: 70%; width: 80%"/>
                                  <h3 style="color: black; margin: auto"> Email Teacher </h3>
                              </a>
@@ -263,7 +263,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="#login" data-theme="" data-icon="home">
+                            <a href="#homescreen" data-theme="" data-icon="home">
                                 <span style="font-size: 30px">Home</span>
                             </a>
                         </li>
@@ -753,6 +753,139 @@
                     <ul>
                         <li>
                             <a data-transition="slide" data-rel="back" data-theme="" data-icon="back" >
+                                <span style="font-size: 30px">Back</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#homescreen" data-theme="" data-icon="home">
+                                <span style="font-size: 30px">Home</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#login" data-theme="" data-icon="delete">
+                                <span style="font-size: 30px">Exit</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Select Subject for E-mail -->
+        <div data-role="page" id="email">
+            <div data-theme="a" data-role="header">
+               <h5 style="font-size: 30px">
+                    Subjects
+                </h5>
+            </div>
+            <div data-role="content">
+                <ul data-role="listview" data-divider-theme="b" data-inset="true">
+                    <li data-role="list-divider" role="heading">
+                        <h1> Subjects </h1>
+                    </li>
+                    <li data-theme="c">
+                        <a href="#algemail" data-transition="slide">
+                            <h1> Algebra </h1>
+                        </a>
+                    </li>
+                    <li data-theme="c">
+                        <a href="#algemail" data-transition="slide">
+                            <h1> Physics</h1>
+                        </a>
+                    </li>
+                    <li data-theme="c">
+                        <a href="#algemail" data-transition="slide">
+                            <h1> English </h1>
+                        </a>
+                    </li>
+                    <li data-theme="c">
+                        <a href="#algemail" data-transition="slide">
+                            <h1> History </h1>
+                        </a>
+                    </li>
+                    <li data-theme="c">
+                        <a href="#algemail" data-transition="slide">
+                            <h1> Social Studies </h1>
+                        </a>
+                    </li>
+                    <li data-theme="c">
+                        <a href="#algemail" data-transition="slide">
+                            <h1> Spanish </h1>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div data-theme="a" data-role="footer" data-position="fixed" >
+                <div data-role="navbar" data-iconpos="top">
+                    <ul>
+                        <li>
+                            <a data-transition="fade" data-rel="back" data-theme="" data-icon="back" >
+                                <span style="font-size: 30px">Back</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#homescreen" data-theme="" data-icon="home">
+                                <span style="font-size: 30px">Home</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#login" data-theme="" data-icon="delete">
+                                <span style="font-size: 30px">Exit</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div data-role="page" id="assignmentsub">
+            <div data-theme="a" data-role="header">
+               <h5 style="font-size: 30px">
+                    Subjects
+                </h5>
+            </div>
+            <div data-role="content">
+                <ul data-role="listview" data-divider-theme="b" data-inset="true">
+                    <li data-role="list-divider" role="heading">
+                        <h1> Subjects </h1>
+                    </li>
+                    <li data-theme="c">
+                        <a href="#duedates" data-transition="slide">
+                            <h1> Algebra </h1>
+                        </a>
+                    </li>
+                    <li data-theme="c">
+                        <a href="#duedates" data-transition="slide">
+                            <h1> Physics</h1>
+                        </a>
+                    </li>
+                    <li data-theme="c">
+                        <a href="#duedates" data-transition="slide">
+                            <h1> English </h1>
+                        </a>
+                    </li>
+                    <li data-theme="c">
+                        <a href="#duedates" data-transition="slide">
+                            <h1> History </h1>
+                        </a>
+                    </li>
+                    <li data-theme="c">
+                        <a href="#duedates" data-transition="slide">
+                            <h1> Social Studies </h1>
+                        </a>
+                    </li>
+                    <li data-theme="c">
+                        <a href="#duedates" data-transition="slide">
+                            <h1> Spanish </h1>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div data-theme="a" data-role="footer" data-position="fixed" >
+                <div data-role="navbar" data-iconpos="top">
+                    <ul>
+                        <li>
+                            <a data-transition="fade" data-rel="back" data-theme="" data-icon="back" >
                                 <span style="font-size: 30px">Back</span>
                             </a>
                         </li>
