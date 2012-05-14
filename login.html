@@ -91,7 +91,7 @@
                 <table>
                     <tr>
                         <td>
-                             <a data-role="button" data-inline="true" data-transition="slide" href="#andy-subject" style="position: absolute; left: 5%; top: 20%; width: 40%; height: 25%">
+                             <a data-role="button" data-inline="true" data-transition="slide" href="#grades" style="position: absolute; left: 5%; top: 20%; width: 40%; height: 25%">
                                  <img src="images/2febb.png" style="height: 70%; width: 80%"/>
                                  <h3 style="color: black; margin: auto"> Grades </h3>
                              </a>
@@ -148,7 +148,7 @@
             <div data-role="content">
                 <img data-inline="true" src="images/assignment3.jpg" alt="image" style="position: absolute; top: 18%; left: 10%; height:50%; width: 80%" />
 
-                <a data-role="button" data-transition="slide" href="#gethelp" data-inline="true" data-theme="e" style="position: absolute; bottom: 14%; left: 4%;">
+                <a data-role="button" data-transition="slide" href="#worksheethelp" data-inline="true" data-theme="e" style="position: absolute; bottom: 14%; left: 4%;">
                     <span style="font-size: 28px">Get help with this homework</span>
                 </a>
             </div>
@@ -180,12 +180,11 @@
         <div data-role="page" id="worksheethelp">
             <div data-theme="a" data-role="header">
                <h5 style="font-size: 30px">
-                    Worksheet Help
+                    Help
                 </h5>
             </div>
             <div data-role="content">
-                
-
+                <iframe style="position: absolute; left: 5%; top: 15%; width: 90%; height: 70%" src="http://m.bing.com/search/search.aspx?A=webresults&Q=algebra+grade+6&D=Web&SI=0&PN=0&SCO=0"></iframe>
             </div>
             <div data-theme="a" data-role="footer" data-position="fixed" data-id="myfooter">
                 <div data-role="navbar" data-iconpos="top">
@@ -237,8 +236,8 @@
                         </table>
                     </li>
                    
-                    <li data-theme="c"  data-icon="false">
-                         <a href="#worksheet" data-transition="slide">
+                    <li data-theme="c">
+                         <a href="#worksheet" data-transition="slide" data-icon="right" data-iconpos="right">
                         <table style="width: 100%;">
                                 <tr>
                                     <td style="width: 70%; border-right: 2px solid #A4A4A4; font-size: 20px; padding: 10px;">Worksheet 3</td>
@@ -282,224 +281,83 @@
             </div>
         </div>
 
-        <!-- ALGEBRA HOMEWORK -->
-        <div data-role="page" id="andy-subject">
+        <!-- GRADES -->
+        <div data-role="page" id="grades">
             <div data-theme="a" data-role="header">
                <h5 style="font-size: 30px">
-                    Andy - Subjects
+                    Grades
                 </h5>
             </div>
             <div data-role="content">
-                <div style="">
-                    <img style="width: 107px; height: 107px" src="http://assets.codiqa.com/ps/13915/8824e0bc61b66d7candy.png" />
-                </div>
-                <ul data-role="listview" data-divider-theme="b" data-inset="true">
-                    <p style="color:red"> Touch a subject to view the grades and the assignments due</p>
-                    <li data-theme="c">
-                        <a href="#andy-algebra" data-transition="slide">
-                            Algebra
-                        </a>
+                <ul data-role="listview" data-divider-theme="b" data-inset="true" >
+                    <li data-role="list-divider" role="heading">
+                        <table style="width: 100%;">
+                            <tr>
+                                <td style="width: 70%; font-size: 28px; padding: 10px;">Subject</td>
+                                <td style="width: 30%; font-size: 28px; padding: 10px;">Grade</td>
+                            </tr>
+                        </table>
                     </li>
-                    <li data-theme="c">
-                        <a href="#andy-physics" data-transition="slide">
-                            Physics
-                        </a>
+                    <li data-theme="" data-icon="false">
+                        <table style="width: 100%;">
+                            <tr>
+                                <td style="width: 70%; border-right: 2px solid #A4A4A4; font-size: 28px; padding: 0px;"><h2>Algebra</h2></td>
+                                <td style="width: 30%; font-size: 22px; padding: 10px;color:red; text-align: center">D</td>
+                            </tr>
+                        </table>
                     </li>
-                    <li data-theme="c">
-                        <a href="#andy-subjects" data-transition="slide">
-                            English
-                        </a>
+                    <li data-theme="" data-icon="false">
+                        <table style="width: 100%;">
+                            <tr>
+                                <td style="width: 70%; border-right: 2px solid #A4A4A4; font-size: 28px; padding: 0px;"><h2>Physics</h2></td>
+                                <td style="width: 30%; font-size: 22px; padding: 10px;color:green; text-align: center">A</td>
+                            </tr>
+                            </table>
                     </li>
-                    <li data-theme="c">
-                        <a href="#andy-subjects" data-transition="slide">
-                            History
-                        </a>
+                    <li data-theme="" data-icon="false">
+                        <table style="width: 100%;">
+                            <tr>
+                                <td style="width: 70%; border-right: 2px solid #A4A4A4; font-size: 28px; padding: 0px;"><h2>English</h2></td>
+                                <td style="width: 30%; font-size: 22px; padding: 10px;color:green; text-align: center">A</td>
+                            </tr>
+                        </table>
                     </li>
-                    <li data-theme="c">
-                        <a href="#andy-subjects" data-transition="slide">
-                            Social Studies
-                        </a>
+                    <li data-theme="" data-icon="false">
+                        <table style="width: 100%;">
+                            <tr>
+                                <td style="width: 70%; border-right: 2px solid #A4A4A4; font-size: 28px; padding: 0px;"><h2>History</h2></td>
+                                <td style="width: 30%; font-size: 22px; padding: 10px;color:green; text-align: center">B</td>
+                            </tr>
+                        </table>
                     </li>
-                    <li data-theme="c">
-                        <a href="#andy-subjects" data-transition="slide">
-                            Spanish
-                        </a>
+                    <li data-theme="" data-icon="false">
+                        <table style="width: 100%;">
+                            <tr>
+                                <td style="width: 70%; border-right: 2px solid #A4A4A4; font-size: 28px; padding: 0px;"><h2>Social Studies</h2></td>
+                                <td style="width: 30%; font-size: 22px; padding: 10px;color:green; text-align: center">A</td>
+                            </tr>
+                        </table>
+                    </li>
+                    <li data-theme="" data-icon="false">
+                        <table style="width: 100%;">
+                            <tr>
+                                <td style="width: 70%; border-right: 2px solid #A4A4A4; font-size: 28px; padding: 0px;"><h2>Spanish</h2></td>
+                                <td style="width: 30%; font-size: 22px; padding: 10px;color:green; text-align: center">A</td>
+                            </tr>
+                        </table>
                     </li>
                 </ul>
             </div>
-            <div data-theme="a" data-role="footer" data-position="fixed" data-id="myfooter">
+            <div data-theme="a" data-role="footer" data-position="fixed" >
                 <div data-role="navbar" data-iconpos="top">
                     <ul>
                         <li>
-                            <a data-transition="slide" data-rel="back" data-theme="" data-icon="back" >
+                            <a data-transition="fade" data-rel="back" data-theme="" data-icon="back" >
                                 <span style="font-size: 30px">Back</span>
                             </a>
                         </li>
                         <li>
-                            <a href="#homescreen" data-theme="" data-icon="home">
-                                <span style="font-size: 30px">Home</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#login" data-theme="" data-icon="delete">
-                                <span style="font-size: 30px">Exit</span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        
-        <!-- after selection of Algebra subject -->
-        <div data-role="page" id="andy-algebra">
-            <div data-theme="a" data-role="header">
-               <h5 style="font-size: 30px">
-                    Algebra
-                </h5>
-            </div>
-            <div data-role="content">
-                <div style="">
-                    <img style="width: 107px; height: 107px" src="http://assets.codiqa.com/ps/13915/53fc75f6412d99e8andy.png" />
-                </div>
-                
-                <div data-role="collapsible-set" data-theme="" data-content-theme="">
-                    <div data-role="collapsible" data-collapsed="true">
-                        <h3>
-                            Grade
-                        </h3>
-                        <p>
-                            <ul data-role="listview">
-                                <li>Overall Grade:  <em style="color:red">'A'</em></li>
-                            </ul>
-                        </p>
-                    </div>
-                </div>
-                <div data-role="collapsible-set" data-theme="" data-content-theme=""  style="position: absolute; bottom: 55%; width: 94%; left: 2%">
-                    <div data-role="collapsible" data-collapsed="true">
-                        <h3>
-                            Assignments
-                        </h3>
-                        <p>
-                <ul data-role="listview">
-                    <li>Assignment #3 due !:
-                        <a href="#worksheet"> 
-                            <em style="color:red">View assignment</em>
-                        </a>
-                    </li>
-                    <li>Assignment #2 completed !</li>
-                    <li>Assignment #1 completed !</li>
-                </ul>
-            </p>
-                    </div>
-                    
-                </div>
-            </div>
-            <div data-theme="a" data-role="footer" data-position="fixed" data-id="myfooter">
-                <div data-role="navbar" data-iconpos="top">
-                    <ul>
-                        <li>
-                            <a data-transition="slide" data-rel="back" data-theme="" data-icon="back" >
-                                <span style="font-size: 30px">Back</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#homescreen" data-theme="" data-icon="home">
-                                <span style="font-size: 30px">Home</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#login" data-theme="" data-icon="delete">
-                                <span style="font-size: 30px">Exit</span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div data-theme="a" data-role="footer" data-position="fixed" data-id="myfooter">
-                <div data-role="navbar" data-iconpos="top">
-                    <ul>
-                        <li>
-                            <a data-transition="slide" data-rel="back" data-theme="" data-icon="back" >
-                                <span style="font-size: 30px">Back</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#homescreen" data-theme="" data-icon="home">
-                                <span style="font-size: 30px">Home</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#login" data-theme="" data-icon="delete">
-                                <span style="font-size: 30px">Exit</span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-       
-       <!-- After selection of Physics -->
-       <div data-role="page" id="andy-physics">
-            <div data-theme="a" data-role="header">
-               <h5 style="font-size: 30px">
-                    Andy - Physics
-                </h5>
-            </div>
-            <div data-role="content">
-                <div style="">
-                    <img style="width: 107px; height: 107px" src="http://assets.codiqa.com/ps/13915/53fc75f6412d99e8andy.png" />
-                </div>
-
-                <a data-role="button" data-transition="slide" data-theme="c" href="#alghw">
-                </a>
-                
-                <div data-role="collapsible-set" data-theme="" data-content-theme="">
-                    <div data-role="collapsible" data-collapsed="true">
-                        <h3>
-                            Assignments
-                        </h3>
-                        <p>
-                <ul data-role="listview">
-                    <li>Assignment #3 completed !</li>
-                    <li>Assignment #2 completed !</li>
-                    <li>Assignment #1 completed !</li>
-                </ul>
-            </p>
-                    </div>
-                    
-                </div>
-            </div>
-            <div data-theme="a" data-role="footer" data-position="fixed" data-id="myfooter">
-                <div data-role="navbar" data-iconpos="top">
-                    <ul>
-                        <li>
-                            <a data-transition="slide" data-rel="back" data-theme="" data-icon="back" >
-                                <span style="font-size: 30px">Back</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#homescreen" data-theme="" data-icon="home">
-                                <span style="font-size: 30px">Home</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#login" data-theme="" data-icon="delete">
-                                <span style="font-size: 30px">Exit</span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div data-theme="a" data-role="footer" data-position="fixed" data-id="myfooter">
-                <div data-role="navbar" data-iconpos="top">
-                    <ul>
-                        <li>
-                            <a data-transition="slide" data-rel="back" data-theme="" data-icon="back" >
-                                <span style="font-size: 30px">Back</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#homescreen" data-theme="" data-icon="home">
+                            <a href="#login" data-theme="" data-icon="home">
                                 <span style="font-size: 30px">Home</span>
                             </a>
                         </li>
@@ -584,7 +442,7 @@
                         <h1> Pick a Subject </h1>
                     </li>
                     <li data-theme="c">
-                        <a href="#alghw" data-transition="slide">
+                        <a href="#duedates" data-transition="slide">
                             <h1> Algebra </h1>
                         </a>
                     </li>
@@ -856,7 +714,7 @@
                         <h1> Subjects </h1>
                     </li>
                     <li data-theme="c">
-                        <a href="#duedates" data-transition="slide">
+                        <a href="#alghw" data-transition="slide">
                             <h1> Algebra </h1>
                         </a>
                     </li>
