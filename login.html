@@ -227,34 +227,38 @@
                             </tr>
                         </table>
                     </li>
-                    <li data-theme="c"  data-icon="false">
-                        <table style="width: 100%;">
-                            <tr>
-                                <td style="width: 70%; border-right: 2px solid #A4A4A4; font-size: 20px; padding: 10px;">Chapter 4, Problems 1-20</td>
-                                <td style="width: 30%; font-size: 20px; padding: 10px;">May 17th</td>
-                            </tr>
-                        </table>
+                    <li data-theme="c">
+                        <a href="#worksheet" data-transition="slide" data-icon="right" data-iconpos="right">
+                            <table style="width: 100%;">
+                                <tr>
+                                    <td style="width: 70%; border-right: 2px solid #A4A4A4; font-size: 20px; padding: 10px;">Chapter 4, Problems 1-20</td>
+                                    <td style="width: 30%; font-size: 20px; padding: 10px;">May 17th</td>
+                                </tr>
+                            </table>
+                        </a>
                     </li>
                    
                     <li data-theme="c">
                          <a href="#worksheet" data-transition="slide" data-icon="right" data-iconpos="right">
-                        <table style="width: 100%;">
-                                <tr>
-                                    <td style="width: 70%; border-right: 2px solid #A4A4A4; font-size: 20px; padding: 10px;">Worksheet 3</td>
-                                    <td style="width: 30%; font-size: 20px; padding: 10px;">May 21st</td>                                       
-                                </tr>
-                                
-                        </table>
-                    </a>
+                            <table style="width: 100%;">
+                                    <tr>
+                                        <td style="width: 70%; border-right: 2px solid #A4A4A4; font-size: 20px; padding: 10px;">Worksheet 3</td>
+                                        <td style="width: 30%; font-size: 20px; padding: 10px;">May 21st</td>                                       
+                                    </tr>
+                                    
+                            </table>
+                        </a>
                     </li>
                     
-                    <li data-theme="c"  data-icon="false">
-                        <table style="width: 100%;">
-                            <tr>
-                                <td style="width: 70%; border-right: 2px solid #A4A4A4; font-size: 20px; padding: 10px;">Assignment 1</td>
-                                <td style="width: 30%; font-size: 20px; padding: 10px;">May 24th</td>
-                            </tr>
-                        </table>
+                    <li data-theme="c">
+                        <a href="#worksheet" data-transition="slide" data-icon="right" data-iconpos="right">
+                            <table style="width: 100%;">
+                                <tr>
+                                    <td style="width: 70%; border-right: 2px solid #A4A4A4; font-size: 20px; padding: 10px;">Assignment 1</td>
+                                    <td style="width: 30%; font-size: 20px; padding: 10px;">May 24th</td>
+                                </tr>
+                            </table>
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -289,7 +293,8 @@
                 </h5>
             </div>
             <div data-role="content">
-                <ul data-role="listview" data-divider-theme="b" data-inset="true" >
+                <div style="color: red; font-size: 90%; text-align: center; top: 10%;"> <h3>Touch a subject to see the detailed grade report! </h3></div>
+                <ul data-role="listview" data-divider-theme="b" data-inset="true" style="top: 15%">
                     <li data-role="list-divider" role="heading">
                         <table style="width: 100%;">
                             <tr>
@@ -299,12 +304,14 @@
                         </table>
                     </li>
                     <li data-theme="" data-icon="false">
-                        <table style="width: 100%;">
-                            <tr>
-                                <td style="width: 70%; border-right: 2px solid #A4A4A4; font-size: 28px; padding: 0px;"><h2>Algebra</h2></td>
-                                <td style="width: 30%; font-size: 22px; padding: 10px;color:red; text-align: center">D</td>
-                            </tr>
-                        </table>
+                        <a href="#alghw" data-transition="slide">
+                            <table style="width: 100%;">
+                                <tr>
+                                    <td style="width: 70%; border-right: 2px solid #A4A4A4; font-size: 28px; padding: 0px;"><h2>Algebra</h2></td>
+                                    <td style="width: 30%; font-size: 22px; padding: 10px;color:red; text-align: center">D</td>
+                                </tr>
+                            </table>
+                         </a>
                     </li>
                     <li data-theme="" data-icon="false">
                         <table style="width: 100%;">
@@ -357,7 +364,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="#login" data-theme="" data-icon="home">
+                            <a href="#homescreen" data-theme="" data-icon="home">
                                 <span style="font-size: 30px">Home</span>
                             </a>
                         </li>
@@ -397,7 +404,7 @@
                     </fieldset>
                 </div>
 
-                <a data-role="button" data-inline="true" data-transition="slide" data-theme="b" href="#homescreen" style="position: absolute; left: 10%; bottom: 15%; width: 38%; height: 7%;">
+                <a data-role="button" data-inline="true" data-transition="slide" data-theme="b" href="#email-confirmation" style="position: absolute; left: 10%; bottom: 15%; width: 38%; height: 7%;">
                     <span> Send </span>
                 </a>
 
@@ -437,37 +444,38 @@
                 </h5>
             </div>
             <div data-role="content">
+                <div style="color:red; text-align:center; font-size: 90%;"> <h3> Touch a subject to get help for the subject! </h3></div>
                 <ul data-role="listview" data-divider-theme="b" data-inset="true">
                     <li data-role="list-divider" role="heading">
                         <h1> Pick a Subject </h1>
                     </li>
                     <li data-theme="c">
-                        <a href="#duedates" data-transition="slide">
+                        <a href="#worksheethelp" data-transition="slide">
                             <h1> Algebra </h1>
                         </a>
                     </li>
                     <li data-theme="c">
-                        <a href="#algemail" data-transition="slide">
+                        <a href="#worksheethelp" data-transition="slide">
                             <h1> Physics</h1>
                         </a>
                     </li>
                     <li data-theme="c">
-                        <a href="#algemail" data-transition="slide">
+                        <a href="#worksheethelp" data-transition="slide">
                             <h1> English </h1>
                         </a>
                     </li>
                     <li data-theme="c">
-                        <a href="#algemail" data-transition="slide">
+                        <a href="#worksheethelp" data-transition="slide">
                             <h1> History </h1>
                         </a>
                     </li>
                     <li data-theme="c">
-                        <a href="#algemail" data-transition="slide">
+                        <a href="#worksheethelp" data-transition="slide">
                             <h1> Social Studies </h1>
                         </a>
                     </li>
                     <li data-theme="c">
-                        <a href="#algemail" data-transition="slide">
+                        <a href="#worksheethelp" data-transition="slide">
                             <h1> Spanish </h1>
                         </a>
                     </li>
@@ -483,6 +491,42 @@
                         </li>
                         <li>
                             <a href="#homescreen" data-theme="" data-icon="home">
+                                <span style="font-size: 30px">Home</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#login" data-theme="" data-icon="delete">
+                                <span style="font-size: 30px">Exit</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- EMAIL CONFIRMATION PAGE -->
+        <div data-role="page" id="email-confirmation">
+            <div data-theme="a" data-role="header">
+               <h5 style="font-size: 30px">
+                    Hurray !!
+                </h5>
+            </div>
+            <div data-role="content">
+                <div style="right: 15%; top: 20%; position: absolute;">
+                    <img src="images/email.png" name="email" class="imagebutton" />
+                    <h2><em style="color:red">Your email has been sent !</em>  </h2>
+                </div>
+            </div>
+            <div data-theme="a" data-role="footer" data-position="fixed" >
+                <div data-role="navbar" data-iconpos="top">
+                    <ul>
+                        <li>
+                            <a data-transition="fade" data-rel="back" data-theme="" data-icon="back" >
+                                <span style="font-size: 30px">Back</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#login" data-theme="" data-icon="home">
                                 <span style="font-size: 30px">Home</span>
                             </a>
                         </li>
@@ -709,12 +753,13 @@
                 </h5>
             </div>
             <div data-role="content">
+                <div style="color:red; text-align: center; font-size: 90%"> <h3> Touch a subject to see upcoming assignments! </h3></div>
                 <ul data-role="listview" data-divider-theme="b" data-inset="true">
                     <li data-role="list-divider" role="heading">
                         <h1> Subjects </h1>
                     </li>
                     <li data-theme="c">
-                        <a href="#alghw" data-transition="slide">
+                        <a href="#duedates" data-transition="slide">
                             <h1> Algebra </h1>
                         </a>
                     </li>
