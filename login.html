@@ -128,6 +128,11 @@
                             </a>
                         </li>
                         <li>
+                            <a href="#select" data-theme="" data-icon="star">
+                                <span style="font-size: 30px">Children</span>
+                            </a>
+                        </li>
+                        <li>
                             <a href="#login" data-theme="" data-icon="delete">
                                 <span style="font-size: 30px">Exit</span>
                             </a>
@@ -450,32 +455,32 @@
                         <h1> Pick a Subject </h1>
                     </li>
                     <li data-theme="c">
-                        <a href="#worksheethelp" data-transition="slide">
+                        <a href="#subhelpselect" data-transition="slide">
                             <h1> Algebra </h1>
                         </a>
                     </li>
                     <li data-theme="c">
-                        <a href="#worksheethelp" data-transition="slide">
+                        <a href="#subhelpselect" data-transition="slide">
                             <h1> Physics</h1>
                         </a>
                     </li>
                     <li data-theme="c">
-                        <a href="#worksheethelp" data-transition="slide">
+                        <a href="#subhelpselect" data-transition="slide">
                             <h1> English </h1>
                         </a>
                     </li>
                     <li data-theme="c">
-                        <a href="#worksheethelp" data-transition="slide">
+                        <a href="#subhelpselect" data-transition="slide">
                             <h1> History </h1>
                         </a>
                     </li>
                     <li data-theme="c">
-                        <a href="#worksheethelp" data-transition="slide">
+                        <a href="#subhelpselect" data-transition="slide">
                             <h1> Social Studies </h1>
                         </a>
                     </li>
                     <li data-theme="c">
-                        <a href="#worksheethelp" data-transition="slide">
+                        <a href="#subhelpselect" data-transition="slide">
                             <h1> Spanish </h1>
                         </a>
                     </li>
@@ -526,7 +531,76 @@
                             </a>
                         </li>
                         <li>
-                            <a href="#login" data-theme="" data-icon="home">
+                            <a href="#homescreen" data-theme="" data-icon="home">
+                                <span style="font-size: 30px">Home</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#login" data-theme="" data-icon="delete">
+                                <span style="font-size: 30px">Exit</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- SELECT TOPIC FOR HELP SEARCH -->
+        <div data-role="page" id="subhelpselect">
+            <div data-theme="a" data-role="header">
+               <h5 style="font-size: 30px">
+                    Topics
+                </h5>
+            </div>
+            <div data-role="content">
+                <div style="">
+                    <img style="width: 107px; height: 107px" src="http://assets.codiqa.com/ps/13915/8824e0bc61b66d7candy.png" />
+                </div>
+                <ul data-role="listview" data-divider-theme="b" data-inset="true">
+                    <p style="color:red"> Select a subject to get help with</p>
+                    <li data-theme="c">
+                        <a href="#worksheethelp" data-transition="slide">
+                            Expressions
+                        </a>
+                    </li>
+                    <li data-theme="c">
+                        <a href="#worksheethelp" data-transition="slide">
+                            Variables
+                        </a>
+                    </li>
+                    <li data-theme="c">
+                        <a href="#worksheethelp" data-transition="slide">
+                            Linear equations
+                        </a>
+                    </li>
+                    <li data-theme="c">
+                        <a href="#worksheethelp" data-transition="slide">
+                            Relations and functions
+                        </a>
+                    </li>
+                    <li data-theme="c">
+                        <a href="#worksheethelp" data-transition="slide">
+                            Patterns
+                        </a>
+                    </li>
+                    <li data-theme="c">
+                        <a href="#worksheethelp" data-transition="slide">
+                            Coordinate Systems
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+            <div data-theme="a" data-role="footer" data-position="fixed" data-id="myfooter">
+                <div data-role="navbar" data-iconpos="top">
+                    <ul>
+                        <li>
+                            <a data-transition="slide" data-rel="back" data-theme="" data-icon="back" >
+                                <span style="font-size: 30px">Back</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#homescreen" data-theme="" data-icon="home">
                                 <span style="font-size: 30px">Home</span>
                             </a>
                         </li>
